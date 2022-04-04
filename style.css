@@ -550,21 +550,12 @@ nav a:hover {
   margin: 2rem 0 2rem 0;
   padding: 0.5rem 1.5rem 0.5rem 2rem;
   border-radius: 0 2.5rem 2.5rem 0;
-  /* background: linear-gradient(
-    to right,
-    var(--greenLogo) 33%,
-    var(--blueLogo) 33%,
-    var(--blueLogo) 67%,
-    var(--redLogo) 67%
-  ); */
-
   background: linear-gradient(
     to right,
     var(--greenLogo),
     var(--blueLogo),
     var(--redLogo)
   );
-
   color: var(--backgroundLighter);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
@@ -645,7 +636,7 @@ h2 {
 /*Animations intersection observer*/
 
 .scale-up-hor-left {
-  animation: scale-up-hor-left 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+  animation: scale-up-hor-left 0.7s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 @keyframes scale-up-hor-left {
   0% {
