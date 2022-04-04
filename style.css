@@ -410,14 +410,6 @@ nav a:hover {
   margin: 2rem 0 2rem 0;
   padding: 0.5rem 1.5rem 0.5rem 2rem;
   border-radius: 0 2.5rem 2.5rem 0;
-  /* background: linear-gradient(
-    to right,
-    var(--greenLogo) 33%,
-    var(--blueLogo) 33%,
-    var(--blueLogo) 67%,
-    var(--redLogo) 67%
-  ); */
-
   background: linear-gradient(
     to right,
     var(--greenLogo),
@@ -427,6 +419,8 @@ nav a:hover {
 
   color: var(--backgroundLighter);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  transform: scaleX(0.01);
+  transform-origin: 0% 0%;
 }
 
 .card-header.card-image {
