@@ -338,16 +338,10 @@ nav a:hover {
 }
 
 .poem-text {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-family: var(--FontSmoochSans);
   line-height: 1.5;
   padding: 2rem;
-}
-
-.poem-text:first-letter {
-  float: left;
-  font-size: 6rem;
-  margin: 0.2rem 0 0 0;
 }
 
 .poem-citation {
@@ -857,22 +851,12 @@ footer {
     font-size: 2rem;
   }
 
-  .poem-text:first-letter {
-    float: left;
-    font-size: 8rem;
-    margin: 0.2rem 0 0 0;
-  }
-
   .poem-citation {
     font-size: 1.5rem;
     text-align: right;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-right: 2rem;
-  }
-
-  .image-gallery {
-    /* margin: 2rem 2rem 2rem 0; */
   }
 
   .card-grid {
