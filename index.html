@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style_v1-1.css" />
+    <link rel="stylesheet" href="style_v1-2.css" />
     <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <script src="app.js" defer></script>
     <title>JOR Asociación Civil</title>
@@ -40,6 +40,7 @@
       <input type="checkbox" id="nav-toggle" class="nav-toggle" />
       <nav>
         <ul>
+          <li><a href="#Actividades">Actividades</a></li>
           <li><a href="#SobreNosotros">Sobre nosotros</a></li>
           <li><a href="#Proyectos">Proyectos</a></li>
           <li>
@@ -60,7 +61,7 @@
         alt="isologotipo Asociación Civil JOR"
       />
 
-      <p id="logoSubtittle">Asociación Civil para apoyo escolar</p>
+      <p id="logoSubtittle">asociación civil para apoyo escolar</p>
 
       <div class="childrensHands-container">
         <img
@@ -128,7 +129,7 @@
       </div>
     </section>
 
-    <section class="actividades" aria-label="actividades">
+    <section id="Actividades" class="actividades" aria-label="actividades">
       <div class="carousel" data-carousel>
         <button class="carousel-button prev" data-carousel-button="prev">
           &#8656;Anterior
@@ -149,6 +150,8 @@
                 <img src="./img/galeria/gallery3.jpg" alt="" />
               </div>
               <div class="slide-info">
+                <p class="slide-info-type">actividad</p>
+                <p class="slide-info-date">22/03/2022</p>
                 <h2>Actividad 1</h2>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -173,6 +176,8 @@
                 <img src="./img/galeria/gallery1.jpg" alt="" />
               </div>
               <div class="slide-info">
+                <p class="slide-info-type">actividad</p>
+                <p class="slide-info-date">22/03/2022</p>
                 <h2>Evento 1</h2>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -198,6 +203,8 @@
                 <img src="./img/galeria/gallery5.jpg" alt="" />
               </div>
               <div class="slide-info">
+                <p class="slide-info-type">actividad</p>
+                <p class="slide-info-date">22/03/2022</p>
                 <h2>Actividad 2</h2>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -229,13 +236,25 @@
         <p class="poem-citation">&mdash;Magali Jazmín Bensignor</p>
       </div>
 
-      <div class="image-gallery">
-        <img loading="lazy" src="./img/galeria/gallery1.jpg" alt="" />
-        <img loading="lazy" src="./img/galeria/gallery2.jpg" alt="" />
-        <img loading="lazy" src="./img/galeria/gallery3.jpg" alt="" />
-        <img loading="lazy" src="./img/galeria/gallery4.jpg" alt="" />
-        <img loading="lazy" src="./img/galeria/gallery5.jpg" alt="" />
-        <img loading="lazy" src="./img/galeria/gallery6.jpg" alt="" />
+      <div class="poem-image-gallery">
+        <img
+          class="expand-row-2"
+          loading="lazy"
+          src="./img/galeria/poema1-1.jpeg"
+          alt=""
+        />
+        <img
+          class="expand-column-2"
+          loading="lazy"
+          src="./img/galeria/poema1-2.jpeg"
+          alt=""
+        />
+        <img
+          class="expand-column-2"
+          loading="lazy"
+          src="./img/galeria/poema1-3.jpeg"
+          alt=""
+        />
       </div>
     </section>
 
@@ -364,7 +383,9 @@
               celulares para que muchos chicos pudieran seguir estudiando.
             </p>
             <p>
-              2021: conseguimos la personería jurídica de JOR ASOCIACION CIVIL.
+              2021: conseguimos la
+              <a href="./legales.pdf">personería jurídica</a> de JOR ASOCIACION
+              CIVIL.
             </p>
           </div>
         </div>
@@ -534,13 +555,25 @@
         </p>
         <p class="poem-citation">&mdash;Magali Jazmín Bensignor</p>
       </div>
-      <div class="image-gallery">
-        <img loading="lazy" src="./img/galeria/gallery7.jpg" alt="" />
-        <img loading="lazy" src="./img/galeria/gallery8.jpg" alt="" />
-        <img loading="lazy" src="./img/galeria/gallery9.jpg" alt="" />
-        <img loading="lazy" src="./img/galeria/gallery10.jpg" alt="" />
-        <img loading="lazy" src="./img/galeria/gallery11.jpg" alt="" />
-        <img loading="lazy" src="./img/galeria/gallery12.jpg" alt="" />
+      <div class="poem-image-gallery">
+        <img
+          class="expand-row-2"
+          loading="lazy"
+          src="./img/galeria/poema2-3.jpeg"
+          alt=""
+        />
+        <img
+          class="expand-column-2"
+          loading="lazy"
+          src="./img/galeria/poema2-1.jpeg"
+          alt=""
+        />
+        <img
+          class="expand-column-2"
+          loading="lazy"
+          src="./img/galeria/poema2-2.jpeg"
+          alt=""
+        />
       </div>
     </section>
 
@@ -552,15 +585,42 @@
       <div class="modal-body">
         <img id="DonacionesImagen" src="./img/DonacionesImagen.png" alt="" />
         <p>
-          Gracias a tu aporte, vamos a poder seguir trabajando por las niñas y
-          niños. ¡Sumate ahora! Se parte del cambio. Tu ayuda nos permite seguir
-          cambiando realidades.
+          Gracias a tu aporte seguiremos mejorando la vida de muchos chicos, ¡sé
+          parte del cambio!, sumate 😀. Info para donar:
         </p>
         <p>Podés realizar tu aporte monetario por los siguientes medios:</p>
+        <br />
+        <br />
+        <br />
         <p class="bold uppercase">
           CBU 0170316820000032337464 <br />
-          CC $ 316-323374/6 <br />
-          JOR ASOCIACIÓN CIVIL
+          Cuenta CC $ 316-323374/6 <br />
+          Razón social JOR ASOCIACIÓN CIVIL <br />
+          Cuit 30717305643
+        </p>
+      </div>
+    </section>
+
+    <section class="modal" id="legales">
+      <div class="modal-header">
+        <div class="title"><h1 class="uppercase">legales</h1></div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img id="DonacionesImagen" src="./img/DonacionesImagen.png" alt="" />
+        <p>
+          Gracias a tu aporte seguiremos mejorando la vida de muchos chicos, ¡sé
+          parte del cambio!, sumate 😀. Info para donar:
+        </p>
+        <p>Podés realizar tu aporte monetario por los siguientes medios:</p>
+        <br />
+        <br />
+        <br />
+        <p class="bold uppercase">
+          CBU 0170316820000032337464 <br />
+          Cuenta CC $ 316-323374/6 <br />
+          Razón social JOR ASOCIACIÓN CIVIL <br />
+          Cuit 30717305643
         </p>
       </div>
     </section>
@@ -581,8 +641,8 @@
             <a href=""
               ><img src="./img/instagram.svg" alt="instagram link"
             /></a>
-            <a href=""><img src="./img/twitter.svg" alt="twitter link" /></a>
-            <a href=""><img src="./img/whatsapp.svg" alt="whatsapp link" /></a>
+            <!-- <a href=""><img src="./img/twitter.svg" alt="twitter link" /></a> -->
+            <!-- <a href=""><img src="./img/whatsapp.svg" alt="whatsapp link" /></a> -->
             <a href=""><img src="./img/youtube.svg" alt="youtube link" /></a>
           </div>
           <div class="email-location">
@@ -600,9 +660,15 @@
               alt="dirección asociación civil JOR"
             />
             <ul class="location-text">
-              <li>Ubicación 1</li>
-              <li>Ubicación 2</li>
-              <li>Ubicación 3</li>
+              <li>
+                Comedor Eben Ezer de González Catán, La Matanza, Provincia de
+                Buenos Aires.
+              </li>
+              <li>
+                Merendero Todos Juntos de González Catán, La Matanza, Provincia
+                de Buenos Aires.
+              </li>
+              <li>Comedor Wlliam Morris, Villa Lugano, CABA.</li>
             </ul>
           </div>
         </div>
@@ -613,7 +679,7 @@
         <p>JOR Asociación Civil &reg; todos los derechos reservados</p>
       </div>
       <div class="">
-        <p>Legales</p>
+        <p><a href="./legales.pdf">Legales</a></p>
       </div>
     </div>
 
