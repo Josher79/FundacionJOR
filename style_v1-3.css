@@ -861,10 +861,10 @@ h2 {
   width: 100%;
   max-width: 100%;
 }
-#jorgeMediaGrid img{
+/*#jorgeMediaGrid div img{
   width: 100%;
   object-fit: cover;
-}
+}*/
 #jorgeMediaGrid video{
   width: 100%;
 }
