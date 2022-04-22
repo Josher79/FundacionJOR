@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fafafa" />
+    <meta name="description" content="JOR | Jamás Olvidemos Reír" />
+    <meta
+      name="keywords"
+      content="gocompras, Villa Mercedes, Hola Go Compras, WebApp, Sitio de ofertas, Ofertas, Local, Villa Mercedes Descuentos, Villa Mercedes Eventos, Villa Mercedes Promos, Villa Mercedes Promociones, Paseo, store, Villa Mercedes Comercios, Villa Mercedes Servicios, Villa Mercedes Negocios, Villa Mercedes Novedades, Oportunidades, Descubrir, Fácil, Sencillo, Destacado, Marcas, Contenido, Ahorro, Precios"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smooch+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style_v1-4.css" />
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <script src="app.js" defer></script>
+    <title>JOR Asociación Civil</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-logo">
+        <div>
+          <img
+            class="logo-small"
+            src="./img/logo/logoFinalCurvas-simple.png"
+            alt="Isologotipo Asociación Civil JOR"
+          />
+        </div>
+        <div class="uppercase logo-leyend">
+          <p>asociación</p>
+          <p>civil</p>
+        </div>
+      </div>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a href="#Actividades">Actividades</a></li>
+          <li><a href="#SobreNosotros">Sobre nosotros</a></li>
+          <li><a href="#Proyectos">Proyectos</a></li>
+          <li>
+            <a href="#" data-modal-target="#modalDonaciones">Donaciones</a>
+          </li>
+          <li><a href="#Contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+
+    <section class="site-presentation">
+      <img
+        id="logo"
+        src="./img/logo/logoFinalWeb.png"
+        alt="isologotipo Asociación Civil JOR"
+      />
+
+      <p id="logoSubtittle">
+        asociación civil para apoyo escolar y desarrollo infantil
+      </p>
+
+      <div class="childrensHands-container">
+        <img
+          class="childrensHands"
+          id="childrensHandsLeft"
+          src="./img/childrens-hands.png"
+          alt="manos de niños"
+        />
+        <img
+          class="childrensHands"
+          id="childrensHandsRight"
+          src="./img/childrens-hands.png"
+          alt="manos de niños"
+        />
+      </div>
+    </section>
+
+    <section class="introduction-text">
+      <div class="card-small">
+        <div class="card-small-header">
+          <h2>QUIENES SOMOS</h2>
+        </div>
+        <div class="card-small-body">
+          <p>
+            Somos una organización sin fines de lucro que colabora con la
+            singularidad de cada niño, niña y adolescente mejorando sus
+            capacidades y su autovaloración.
+          </p>
+        </div>
+      </div>
+      <div class="card-small">
+        <div class="card-small-header">
+          <h2>IDEA FUERZA</h2>
+        </div>
+        <div class="card-small-body">
+          <p>
+            Trabajamos para impulsar socialmente la convicción de cada escolar
+            en sus propias posibilidades para abrir sus propias oportunidades.
+          </p>
+        </div>
+      </div>
+      <div class="card-small">
+        <div class="card-small-header">
+          <h2>MISIÓN</h2>
+        </div>
+        <div class="card-small-body">
+          <p>
+            A través del apoyo escolar en sectores vulnerables nos involucramos
+            en la subjetividad de cada escolar brindándole herramientas
+            educativas y recursos emocionales para aumentar su desarrollo
+            integral.
+          </p>
+        </div>
+      </div>
+      <div class="card-small">
+        <div class="card-small-header">
+          <h2>VISIÓN</h2>
+        </div>
+        <div class="card-small-body">
+          <p>
+            Todo escolar sabrá que su voz es valiosa, mejorará su aprendizaje,
+            tendrá confianza en su potencial y no le faltará oportunidad.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Actividades" class="actividades" aria-label="actividades">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          &#8656;Anterior
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          Siguiente&#8658;
+        </button>
+        <div class="slides-container" data-slides>
+          <div class="slide" data-active>
+            <div class="slide-container">
+              <div class="slide-images-gallery">
+                <img
+                  loading="lazy"
+                  class="expand-image translate-to-left"
+                  src="./img/galeria/actividad1-picture1.jpg"
+                  alt=""
+                />
+                <img
+                  class="translate-to-left"
+                  loading="lazy"
+                  src="./img/galeria/actividad1-picture2.jpg"
+                  alt=""
+                />
+                <img
+                  class="translate-to-left"
+                  loading="lazy"
+                  src="./img/galeria/actividad1-picture3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="slide-info">
+                <p class="slide-info-type translate-to-left">actividad</p>
+                <p class="slide-info-date translate-to-left">7/4/2022</p>
+                <h2 class="translate-to-left">
+                  Entrega de kits para la escuela y apoyo escolar en el Comedor
+                  William Morris
+                </h2>
+                <p class="translate-to-left">
+                  En el Comedor William Morris de Villa Lugano, CABA trabajamos
+                  junto a más de 15 chicos. El apoyo tiene lugar por la tarde.
+                  El comedor ha estado en reformas pero pudimos aprovechar los
+                  días lindos para realizar actividades al aire libre y
+                  entregarles kits escolares.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-container">
+              <div class="slide-images-gallery">
+                <img
+                  loading="lazy"
+                  class="expand-image translate-to-left"
+                  src="./img/galeria/actividad2-picture1.jpg"
+                  alt=""
+                />
+                <img
+                  class="translate-to-left"
+                  loading="lazy"
+                  src="./img/galeria/actividad2-picture2.jpg"
+                  alt=""
+                />
+                <img
+                  class="translate-to-left"
+                  loading="lazy"
+                  src="./img/galeria/actividad2-picture3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="slide-info">
+                <p class="slide-info-type translate-to-left">actividad</p>
+                <p class="slide-info-date translate-to-left">7/4/2022</p>
+                <h2 class="translate-to-left">
+                  Merendando y haciendo la tarea en el Comedor Eben Ezer
+                </h2>
+                <p class="translate-to-left">
+                  En el Comedor Eben Ezer de González Catán PBA trabajamos junto
+                  a más de 45 chicos. Tenemos turno mañana y turno tarde
+                  adaptándonos al horario escolar que cursan, aprovechando a
+                  compartir algún desayuno o merienda. Les encanta sumar colores
+                  y conocer las emociones.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-container">
+              <div class="slide-images-gallery">
+                <img
+                  loading="lazy"
+                  class="expand-image translate-to-left"
+                  src="./img/galeria/actividad3-picture1.jpg"
+                  alt=""
+                />
+                <img
+                  class="translate-to-left"
+                  loading="lazy"
+                  src="./img/galeria/actividad3-picture2.jpg"
+                  alt=""
+                />
+                <img
+                  class="translate-to-left"
+                  loading="lazy"
+                  src="./img/galeria/actividad3-picture3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="slide-info">
+                <p class="slide-info-type translate-to-left">actividad</p>
+                <p class="slide-info-date translate-to-left">7/4/2022</p>
+                <h2 class="translate-to-left">
+                  Doble turno de apoyo escolar en el Merendero Todos Juntos
+                </h2>
+                <p class="translate-to-left">
+                  En el Merendero Todos Juntos de González Catán, PBA trabajamos
+                  junto a más de 35 chicos. Tenemos turno mañana y turno tarde
+                  adaptándonos al horario escolar que cursan.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-container">
+              <div class="slide-images-gallery">
+                <img
+                  loading="lazy"
+                  class="expand-image translate-to-left"
+                  src="./img/galeria/actividad1-picture3.jpg"
+                  alt=""
+                />
+                <img
+                  class="translate-to-left"
+                  loading="lazy"
+                  src="./img/galeria/actividad2-picture3.jpg"
+                  alt=""
+                />
+                <img
+                  class="translate-to-left"
+                  loading="lazy"
+                  src="./img/galeria/actividad3-picture1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="slide-info">
+                <!-- <p class="slide-info-type">actividades</p> -->
+                <!-- <p class="slide-info-date translate-to-left">7/4/2022</p> -->
+                <!-- <h2 class="translate-to-left">Actividad 1</h2> -->
+                <p class="translate-to-left">
+                  En red con la Organización Educar y Crecer llevamos apoyo
+                  escolar a tres espacios acompañando aproximadamente a 100
+                  chicos en el desarrollo de su aprendizaje. Más allá de
+                  acompañarlos con sus tareas escolares y con el fin de lograr
+                  un mejor resultado en el aprendizaje, realizamos una
+                  evaluación diagnóstica sin nota calificante para agruparlos
+                  con independencia del grado en que están ya que muchos
+                  escolares en nuestro país pasan de grado sin haber aprendido
+                  el currículo, lo que no solo les resta conocimientos sino que
+                  también afecta directamente en su autoestima y JOR está
+                  permanentemente trabajando para mejorar su aprendizaje y
+                  reforzar su autovaloración.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="poetry-section">
+      <div class="poem-container">
+        <p class="poem-text">
+          <span class="bold">J</span>ugando a descubrir sus propios deseos<br />
+          <span class="bold">P</span>uede que existan mares revueltos<br />
+          <span class="bold">T</span>anta inocencia que albergan sus sueños<br />
+          <span class="bold">T</span>esoro que brilla en cualquier desierto<br />
+          <span class="bold">C</span>onstruyamos oasis con sonrisas que
+          abriguen<br />
+          <span class="bold">L</span>a mirada de un niño, reflejo de anhelos que
+          su corazón persigue
+        </p>
+        <p class="poem-citation">&mdash;Magali Jazmín Bensignor</p>
+      </div>
+
+      <div class="poem-image-gallery">
+        <img
+          class="expand-row-2"
+          loading="lazy"
+          src="./img/galeria/poema1-1.jpeg"
+          alt=""
+        />
+        <img
+          class="expand-column-2"
+          loading="lazy"
+          src="./img/galeria/poema1-2.jpeg"
+          alt=""
+        />
+        <img
+          class="expand-column-2"
+          loading="lazy"
+          src="./img/galeria/poema1-3.jpeg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <div class="card-grid">
+      <div id="SobreNosotros" class="card card-shadow">
+        <div class="card-header card-image">
+          <img loading="lazy" src="./img/SobreNosotros.jpeg" />
+          <h1 class="card-tittle uppercase scale-right">sobre nosotros</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            La risa nos abrazó como amigos y el fuerte deseo de ayudar nos unió
+            como Organización para canalizar las actividades de acción social
+            que veníamos desarrollando.
+          </p>
+        </div>
+        <div class="modal" id="modal3">
+          <div class="modal-header">
+            <div class="title">
+              <h1 class="uppercase">sobre nosotros</h1>
+            </div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>
+              La risa nos abrazó como amigos y el fuerte deseo de ayudar nos
+              unió como Organización para canalizar las actividades de acción
+              social que veníamos desarrollando.
+            </p>
+            <p>
+              La risa acorta distancias, la risa cura, la risa oxigena, la risa
+              contiene sueños y nosotros queremos atesorarla desde la infancia.
+            </p>
+            <p>
+              <span class="green-logo bold">J</span
+              ><span class="blue-logo bold">O</span
+              ><span class="red-logo bold">R</span> significa:
+              <span class="green-logo bold">J</span>AMAS
+              <span class="blue-logo bold">O</span>LVIDEMOS
+              <span class="red-logo bold">R</span>EIR, porque aún en las
+              adversidades alimentar la risa puede regalarnos un mejor presente
+              y construir un mejor futuro.
+            </p>
+            <p>
+              Es en los sectores vulnerables donde ponemos nuestro trabajo
+              creando espacios de aprendizaje con apoyos escolares, con juego,
+              recreación y expresión, acompañando a niños y adolescentes en su
+              desarrollo educativo y emocional.
+            </p>
+
+            <p>
+              Fuente de inspiración para elegir el nombre de JOR fue Jorge, que
+              con su alegría nos impulsó a tomar su sonrisa como guardiana de
+              muchas. Podés conocerlo <a href="">acá</a>.
+            </p>
+            <div id="jorgeMediaGrid">
+              <div class="">
+                <img src="./img/jorge/jorge-picture2.jpg" alt="" />
+                <img src="./img/jorge/jorge-picture1.jpg" alt="" />
+                <img src="./img/jorge/jorge-picture3.jpg" alt="" />
+              </div>
+              <video src="./img/jorge/jorge-video1.mp4" controls></video>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <button class="btn btn-outline" data-modal-target="#modal3">
+            Leer mas...
+          </button>
+          <img
+            loading="lazy"
+            src="./img/childrens-hands.png"
+            class="manos-niños-card"
+            alt="Manos niños"
+          />
+          <button
+            class="btn uppercase scale-up-center"
+            data-modal-target="#modalDonaciones"
+          >
+            donar <span class="red-logo">&#10084;</span>
+          </button>
+        </div>
+      </div>
+      <div class="card card-shadow">
+        <div class="card-header card-image">
+          <img loading="lazy" src="./img/NuestrosComienzos.jpg" />
+          <h1 class="card-tittle uppercase scale-right">nuestros comienzos</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            2018:Con la ayuda de la Asoc. Civil Midori diseñamos, coordinamos y
+            realizamos la obra del Comedor Eben Ezer de Gonzalez Catan donde se
+            alimentan a más de 250 niños, pavimentándolo y colocando pisos
+            evitando que siga sufriendo inundaciones, construyendo medianera y
+            puerta para su seguridad y construyendo baños para mejorar la
+            higiene, lugar de guardado y demás cuestiones referentes a su
+            correcto funcionamiento.
+          </p>
+        </div>
+        <div class="modal" id="modal4">
+          <div class="modal-header">
+            <div class="title">
+              <h1 class="uppercase">nuestros comienzos</h1>
+            </div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>
+              2018: Con la ayuda de la Asoc. Civil Midori diseñamos, coordinamos
+              y realizamos la obra del Comedor Eben Ezer de Gonzalez Catan donde
+              se alimentan a más de 250 niños, pavimentándolo y colocando pisos
+              evitando que siga sufriendo inundaciones, construyendo medianera y
+              puerta para su seguridad y construyendo baños para mejorar la
+              higiene, lugar de guardado y demás cuestiones referentes a su
+              correcto funcionamiento.
+            </p>
+            <p>
+              Entregamos donaciones de todo tipo para los chicos que concurren
+              con sus familias al Comedor.
+            </p>
+            <p>
+              2019: en actividad conjunta con los chicos pusimos una huerta, no
+              solo para que el propio Comedor pudiera cultivar sus alimentos
+              sino como actividad educativa para todas las familias que asisten.
+            </p>
+            <p>
+              2020: capacitamos a docentes y evaluamos a más de 100 chicos para
+              la implementación de un apoyo escolar en el Comedor Eben Ezer que
+              estuvo detenido por la pandemia, y que estamos comenzando en 2022.
+            </p>
+            <p>
+              En plena pandemia conseguimos donaciones de computadoras y
+              celulares para que muchos chicos pudieran seguir estudiando.
+            </p>
+            <p>
+              2021: conseguimos la
+              <a href="./legales.pdf">personería jurídica</a> de JOR ASOCIACION
+              CIVIL.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <button class="btn btn-outline" data-modal-target="#modal4">
+            Leer mas...
+          </button>
+          <img
+            loading="lazy"
+            src="./img/childrens-hands.png"
+            class="manos-niños-card"
+            alt="Manos niños"
+          />
+          <button
+            class="btn uppercase scale-up-center"
+            data-modal-target="#modalDonaciones"
+          >
+            donar <span class="red-logo">&#10084;</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="card card-shadow">
+        <div class="card-header card-image">
+          <img loading="lazy" src="./img/NuestraMotivacion.jpeg" />
+          <h1 class="card-tittle uppercase scale-right">nuestra motivación</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            La falta de oportunidades nos sensibiliza y nos convoca con el
+            compromiso de no ser indiferentes a las necesidades ajenas.
+          </p>
+        </div>
+
+        <div class="modal" id="modal1">
+          <div class="modal-header">
+            <div class="title">
+              <h1 class="uppercase">nuestra motivación</h1>
+            </div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>
+              La falta de oportunidades nos sensibiliza y nos convoca con el
+              compromiso de no ser indiferentes a las necesidades ajenas.
+            </p>
+            <p>
+              La infancia y su inocencia es un tesoro y no queremos ser pasivos
+              ante el daño que pudiera sufrir en sectores vulnerables.
+            </p>
+            <p>
+              La educación es un derecho de todos y confiamos que es la
+              herramienta más poderosa para abrirnos camino y crear movilidad
+              social ascendente.
+            </p>
+            <p>
+              Sentimos que ningún ser humano, sobre todo en su infancia, puede
+              crecer sano en un ámbito donde carece de afecto y validación, por
+              eso nuestro acompañamiento no es solo educativo sino también
+              emocional aumentando su capacidad cognitiva desde su estima y su
+              confianza.
+            </p>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <button class="btn btn-outline" data-modal-target="#modal1">
+            Leer mas...
+          </button>
+          <img
+            loading="lazy"
+            src="./img/childrens-hands.png"
+            class="manos-niños-card"
+            alt="Manos niños"
+          />
+          <button
+            class="btn uppercase scale-up-center"
+            data-modal-target="#modalDonaciones"
+          >
+            donar <span class="red-logo">&#10084;</span>
+          </button>
+        </div>
+      </div>
+
+      <div id="Proyectos" class="card card-shadow">
+        <div class="card-header card-image">
+          <img loading="lazy" src="./img/NuestrosProyectos.jpeg" />
+          <h1 class="card-tittle uppercase scale-right">nuestros proyectos</h1>
+        </div>
+        <div class="card-body">
+          <p>
+            Soñamos con poder expandirnos llegando a más niños, niñas y
+            adolescentes de nuestra región, brindándoles apoyo integral desde lo
+            educativo y lo emocional.
+          </p>
+        </div>
+        <div class="modal" id="modal2">
+          <div class="modal-header">
+            <div class="title">
+              <h1 class="uppercase">nuestros proyectos</h1>
+            </div>
+            <button data-close-button class="close-button">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Soñamos con poder expandirnos llegando a más niños, niñas y
+              adolescentes de nuestra región, brindándoles apoyo integral desde
+              lo educativo y lo emocional.
+            </p>
+            <p>
+              Soñamos con tener un espacio propio, cálido, alegre, propicio para
+              la imaginación, la creatividad, que invite al juego, al arte y a
+              todas las actividades recreativas que nos ayuden a ampliar el
+              horizonte dentro de cada niño y como sociedad.
+            </p>
+            <h2 class="uppercase">proyectos</h2>
+            <ul>
+              <li>
+                Queremos seguir ampliando con más alumnos y más docentes los
+                apoyos escolares donde ya estamos trabajando y poder expandirnos
+                hacia otros espacios.
+              </li>
+              <li>
+                Queremos seguir respondiendo a las necesidades de los distintos
+                espacios desde lo nutricional y cooperando con los elementos
+                indispensables para el correcto funcionamiento.
+              </li>
+              <li>
+                Queremos promover la cultura del trabajo, brindando educación no
+                solo a los niños que asisten a los centros, sino a los adultos
+                que lo deseen.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <button class="btn btn-outline" data-modal-target="#modal2">
+            Leer mas...
+          </button>
+          <img
+            loading="lazy"
+            src="./img/childrens-hands.png"
+            class="manos-niños-card"
+            alt="Manos niños"
+          />
+          <button
+            class="btn uppercase scale-up-center"
+            data-modal-target="#modalDonaciones"
+          >
+            donar <span class="red-logo">&#10084;</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section class="poetry-section">
+      <div class="poem-container">
+        <p class="poem-text">
+          <span class="bold">D</span>arles herramientas, habilitar la duda,
+          incentivar la estima <br />
+          <span class="bold">L</span>os niños son la llave que prima<br />
+          <span class="bold">E</span>l futuro está en sus manos<br />
+          <span class="bold">L</span>a educación es un derecho<br />
+          <span class="bold">Y</span> el más valioso atributo humano
+        </p>
+        <p class="poem-citation">&mdash;Magali Jazmín Bensignor</p>
+      </div>
+      <div class="poem-image-gallery">
+        <img
+          class="expand-row-2"
+          loading="lazy"
+          src="./img/galeria/poema2-3.jpeg"
+          alt=""
+        />
+        <img
+          class="expand-column-2"
+          loading="lazy"
+          src="./img/galeria/poema2-1.jpeg"
+          alt=""
+        />
+        <img
+          class="expand-column-2"
+          loading="lazy"
+          src="./img/galeria/poema2-2.jpeg"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="modal" id="modalDonaciones">
+      <div class="modal-header">
+        <div class="title"><h1 class="uppercase">donaciones</h1></div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img id="DonacionesImagen" src="./img/DonacionesImagen.png" alt="" />
+        <p>
+          Gracias a tu aporte seguiremos mejorando la vida de muchos chicos, ¡sé
+          parte del cambio!, sumate 😀. Info para donar:
+        </p>
+        <p>Podés realizar tu aporte monetario por los siguientes medios:</p>
+        <br />
+        <br />
+        <br />
+        <p class="bold uppercase">
+          CBU 0170316820000032337464 <br />
+          Cuenta CC $ 316-323374/6 <br />
+          Razón social JOR ASOCIACIÓN CIVIL <br />
+          Cuit 30717305643
+        </p>
+      </div>
+    </section>
+
+    <section class="modal" id="legales">
+      <div class="modal-header">
+        <div class="title"><h1 class="uppercase">legales</h1></div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img id="DonacionesImagen" src="./img/DonacionesImagen.png" alt="" />
+        <p>
+          Gracias a tu aporte seguiremos mejorando la vida de muchos chicos, ¡sé
+          parte del cambio!, sumate 😀. Info para donar:
+        </p>
+        <p>Podés realizar tu aporte monetario por los siguientes medios:</p>
+        <br />
+        <br />
+        <br />
+        <p class="bold uppercase">
+          CBU 0170316820000032337464 <br />
+          Cuenta CC $ 316-323374/6 <br />
+          Razón social JOR ASOCIACIÓN CIVIL <br />
+          Cuit 30717305643
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <img
+          id="logoFooter"
+          src="./img/logo/logoFinalWeb.png"
+          alt="isologotipo asociación civil JOR"
+        />
+
+        <div id="Contacto" class="contact-container">
+          <div class="social-links">
+            <a href=""
+              ><img class="" src="./img/facebook.svg" alt="facebook link"
+            /></a>
+            <a href=""
+              ><img src="./img/instagram.svg" alt="instagram link"
+            /></a>
+            <!-- <a href=""><img src="./img/twitter.svg" alt="twitter link" /></a> -->
+            <!-- <a href=""><img src="./img/whatsapp.svg" alt="whatsapp link" /></a> -->
+            <a href=""><img src="./img/youtube.svg" alt="youtube link" /></a>
+          </div>
+          <div class="email-location">
+            <img
+              class="email-icon"
+              src="./img/email.svg"
+              alt="correo electrónico"
+            />
+            <p class="email-text">info@jorasociacioncivil.org</p>
+          </div>
+          <div class="email-location">
+            <img
+              src="./img/country.svg"
+              class="location-icon"
+              alt="dirección asociación civil JOR"
+            />
+            <ul class="location-text">
+              <li>
+                Comedor Eben Ezer de González Catán, La Matanza, Provincia de
+                Buenos Aires.
+              </li>
+              <li>
+                Merendero Todos Juntos de González Catán, La Matanza, Provincia
+                de Buenos Aires.
+              </li>
+              <li>Comedor Wlliam Morris, Villa Lugano, CABA.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="legal">
+      <div class="">
+        <p>JOR Asociación Civil &reg; todos los derechos reservados</p>
+      </div>
+      <div class="">
+        <p><a href="./legales.pdf">Legales</a></p>
+      </div>
+    </div>
+
+    <div id="overlay"></div>
+  </body>
+</html>
